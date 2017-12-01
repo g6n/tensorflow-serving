@@ -11,5 +11,6 @@ RUN apt-get update && \
     apt-get autoremove -y && \
     rm -rf /var/lib/apt/lists/*
 ADD start.sh .
+RUN chmod +x ./start.sh
 EXPOSE 9000
 CMD ["./start.sh"]
