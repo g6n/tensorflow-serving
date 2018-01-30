@@ -14,5 +14,3 @@ ADD start.sh .
 RUN chmod +x ./start.sh
 EXPOSE 9000
 CMD ["./start.sh"]
-
-pool/tensorflow-model-server-1.4.0/t/tensorflow-model-server/tensorflow-model-server_1.4.0_all.deb
